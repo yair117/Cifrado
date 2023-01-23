@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px) {
+    .cajaTexto{
+        resize: none;
+        width: 720px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .cajaTexto{
+        resize: none;
+        width: 660px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .cajaTexto{
+        resize: none;
+        width: 600px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .cajaTexto{
+        resize: none;
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .cajaTexto{
+        resize: none;
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .cajaTexto{
+        resize: none;
+        width: 420px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cajaTexto{
+        resize: none;
+        width: 300px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .cajaTexto{
+        resize: none;
+        width: 260px;
+        height: 400px;
+    }
+}
+
+
+/*CAJA TEXT9*/
+@media screen and (max-width: 1200px) {
+    #salidaTexto{
+        resize: none;
+        width: 300px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #salidaTexto{
+        resize: none;
+        width: 270px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #salidaTexto{
+        resize: none;
+        width: 230px;
+        height: 480px;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    #salidaTexto{
+        resize: none;
+        width: 460px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #salidaTexto{
+        resize: none;
+        width: 420px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #salidaTexto{
+        resize: none;
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #salidaTexto{
+        resize: none;
+        width: 260px;
+        height: 300px;
+    }
+}
+
+
+

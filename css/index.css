@@ -1,0 +1,150 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.cifrado {
+  margin: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 2fr 0.8fr;
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  .cifrado {
+    grid-template-columns: 1fr;
+  }
+}
+
+.miCifrado {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1;
+  justify-items: center;
+}
+
+.cajaTexto {
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  color: #04254d;
+  background-color: rgb(255, 255, 255);
+  resize: none;
+  width: 840px;
+  height: 450px;
+  outline: none;
+  padding: 10px;
+  margin: 15px;
+}
+
+.cajaTexto::placeholder {
+  color: #04254d;
+  font-size: 30px;
+}
+
+.salida {
+  display: grid;
+  grid-template-columns: 1;
+}
+
+#salidaTexto {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #04254d;
+  width: 320px;
+  height: 450px;
+  padding: 10px;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#salida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  max-width: 220px;
+  max-height: 220px;
+}
+
+.botones{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+  justify-items: center;
+}
+
+#cifrar{
+  border-radius: 10px;
+  width: 90%;  
+  padding: 5px;
+  border-color: #04254d;
+  color: #ffffff;
+  background-color: #04254d;
+}
+
+#cifrar:hover{
+  border-radius: 10px;
+  width: 90%;  
+  padding: 5px;
+  background-color: #ffffff;
+  color: #04254d;
+}
+
+#descifrar{
+  border-radius: 10px;
+  width: 80%;  
+  padding: 5px;
+  border-color: #04254d;
+  background-color: #ffffff;
+  color: #04254d;
+}
+
+#descifrar:hover{
+  border-radius: 10px;
+  width: 80%;  
+  padding: 5px;
+  color: #ffffff;
+  background-color: #04254d;
+}
+
+
+
+#copiar{
+  margin: 20px;
+  border-radius: 10px; 
+  padding: 5px;
+  border-color: #04254d;
+  color: #ffffff;
+  background-color: #04254d;
+}
+
+#copiar:hover{
+  margin: 20px;
+  border-radius: 10px; 
+  padding: 5px;
+  border-color: #04254d;
+  color: #04254d;
+  background-color: #ffffff;
+}
+
+footer{
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1;
+  align-items: center;
+  justify-items: center;
+}
